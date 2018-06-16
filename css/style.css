@@ -246,3 +246,32 @@ form.register-form-wrap div.mdl-grid div.mdl-cell.terms-wrap label.mdl-checkbox 
     font-weight: bold;
     color: #F19B24;
 }
+/*Hints Styles*/
+.mdl-hint-textfield{
+    padding: 20px 0 0 0;
+}
+.mdl-hint{
+    color: #fff;
+    font-size: 11px;
+    margin: 0 auto;
+    max-width: 300px;
+}
+/*Navbar icon*/
+i.fasfa-bars:before{
+    content: "\f0c9";
+    font-weight: 600;
+    font-family: "Font Awesome 5 Free";
+    font-style: normal;
+    color: #F19B24;
+}
+.mdl-layout__header{
+    background-color: #145679;
+    color: #F19B24;
+}
+.mdl-layout__drawer-button{
+    line-height: 48px;
+}
+
+.mdl-layout__header-row{
+    text-align: center;
+}
