@@ -32,6 +32,10 @@ h3 {
   font-weight: 500;
 }
 
+.no-padding{
+    padding: 0;
+}
+
 /* MAIN styles */
 
 body {
@@ -271,7 +275,39 @@ i.fasfa-bars:before{
 .mdl-layout__drawer-button{
     line-height: 48px;
 }
-
+@media screen and (max-width:1024px) {
+     .mdl-layout__header-row {
+      height:56px;
+      padding: 0 40px 0 80px;
+     }
+}
 .mdl-layout__header-row{
     text-align: center;
+}
+
+.mdl-layout-title{
+    margin: 0 auto;
+}
+/*Perfil List Elements*/
+div.mdl-layout__container div.mdl-layout.mdl-js-layout main.mdl-layout__content div.page-content a.mdl-list__item{
+    cursor: pointer;
+}
+div.mdl-layout__container div.mdl-layout.mdl-js-layout main.mdl-layout__content div.page-content a.mdl-list__item:hover{
+    background-color: rgba(0,0,0,.12)
+}
+div.mdl-layout__container div.mdl-layout.mdl-js-layout main.mdl-layout__content div.page-content a.mdl-list__item span.mdl-list__item-primary-content i{
+    font-size: 28px;
+    margin-right: 16px;
+    margin-left: 6px;
+    color: #F19B24;
+}
+li.mdl-list__item--three-line{
+    height: 120px;
+    display: block;
+}
+.perfil-image{
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 80px;
 }

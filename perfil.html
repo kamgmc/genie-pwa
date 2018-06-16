@@ -16,6 +16,8 @@
                 <div class="mdl-layout__header-row">
                     <!-- Title -->
                     <span class="mdl-layout-title mdl-layout--small-screen-only">Mi Perfil</span>
+                    <!-- Add spacer, to align navigation to the right -->
+                    <div class="mdl-layout-spacer mdl-layout--large-screen-only"></div>
                     <!-- Navigation. We hide it in small screens. -->
                     <nav class="mdl-navigation mdl-layout--large-screen-only">
                         <a class="mdl-navigation__link" href="">Link</a>
@@ -35,7 +37,39 @@
                 </nav>
             </div>
             <main class="mdl-layout__content">
-                <div class="page-content"><!-- Your content goes here --></div>
+                <div class="page-content">
+                    <ul class="demo-list-two mdl-list no-padding">
+                        <li class="mdl-list__item mdl-list__item--three-line">
+                            <span class="mdl-list__item-primary-content perfil-wrap">
+                                <img src="images/user.jpg" class="perfil-image"/>
+                                <span>Bryan Cranston</span>
+                                <span class="mdl-list__item-sub-title">dhiug@gmail.com</span>
+                                <span class="mdl-list__item-sub-title">0412-6184612</span>
+                            </span>
+                        </li>
+                    </ul>
+                    <!--List items-->
+                    <div class="demo-list-action mdl-list no-padding">
+                        <a class="mdl-list__item" href="#">
+                            <span class="mdl-list__item-primary-content">
+                                <i class="fas fa-lock"></i>
+                                <span>Cambiar contraseña</span>
+                            </span>
+                            <span class="mdl-list__item-secondary-action">
+                                <i class="fas fa-chevron-right"></i>
+                            </span>
+                        </a>
+                        <a class="mdl-list__item" href="#">
+                            <span class="mdl-list__item-primary-content">
+                                <i class="fas fa-tag"></i>
+                                <span>Añadir cupón de descuento</span>
+                            </span>
+                            <span class="mdl-list__item-secondary-action">
+                                <i class="fas fa-chevron-right"></i>
+                            </span>
+                        </a>
+                    </div>
+                </div>
             </main>
         </div>
     </body>
