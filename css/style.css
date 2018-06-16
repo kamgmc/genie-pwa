@@ -309,6 +309,7 @@ div.mdl-layout__container div.mdl-layout.mdl-js-layout main.mdl-layout__content 
     display: flex;
     align-items:center;
     padding: 20px;
+    border-bottom: 2px solid #F19B24;
 }
 
 .user-wrap .perfil-image{
