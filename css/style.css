@@ -1,0 +1,248 @@
+html,
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.no--select {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+h3 {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+/* MAIN styles */
+
+body {
+    font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+.app-bg{
+    background-color: #145679;
+}
+
+/*        Login layout      */
+.app-login-layout{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #145679;
+}
+
+.app-login-layout header {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: #145679;
+  box-shadow: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  z-index: 1;
+  color: #fff;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: background-color 250ms linear;
+  transition: background-color 250ms linear;
+}
+/*Login Image*/
+.img-wrap {
+    display: block;
+    margin: 1em auto 0 auto;
+}
+
+.img-wrap img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+/*    Slogan     */
+div.slogan-wrap{
+    position: relative;
+    width: 100%;
+}
+
+div.slogan-wrap .container{
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    max-width: 300px;
+    text-align: center;
+}
+div.slogan-wrap .container .slogan-shape{
+    padding: 5px 8px;
+    background-color: #F19B24;
+    border: 1px solid #F19B24;
+    border-radius: 10px 10px 10px 0;
+    color: #fff;
+    font-weight: bold;
+    width: 105px;
+    margin: 0 auto;
+}
+
+/* Login Issues*/
+main.login-form-wrap{
+    position: relative;
+    width: 100%;
+}
+/*Login Form */
+main.login-form-wrap form{
+    position: relative;
+    margin: 0 auto;
+    padding: 0 8px;
+    text-align: center;
+    max-width: 300px;
+}
+main.login-form-wrap form div.mdl-textfield{
+    display: block;
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    color: #fff;
+}
+
+/*Material Design Custumization*/
+main.login-form-wrap form div.mdl-textfield input.mdl-textfield__input{
+  border-bottom: 1px solid #F19B24;
+}
+
+.special-label:after {
+  background-color: #fff !important;/*Animation color*/
+}
+
+main.login-form-wrap form div.mdl-textfield.is-focused input.mdl-textfield__input,
+main.login-form-wrap form div.mdl-textfield.is-focused label.mdl-textfield__label{
+	color: #fff;
+}
+
+main.login-form-wrap button.mdl-button{
+    width: 100%;
+    border: 2px solid #F19B24;
+    background-color: transparent;
+    color: #F19B24;
+    font-size: 1.2em;
+    border-radius: 0;
+}
+/*Register links*/
+main.login-form-wrap div.register-wrap{
+    position: relative;
+    margin: 15px auto;
+    padding: 0 8px;
+    text-align: center;
+    max-width: 300px;
+}
+
+main.login-form-wrap div.register-wrap a{
+    color: #fff;
+    font-size: 12px;
+    position: relative;
+}
+
+main.login-form-wrap div.register-wrap div.o-wrap{
+    position: relative;
+    margin: 1.2em auto;
+}
+
+main.login-form-wrap div.register-wrap div.o-wrap hr{
+    border-top: 1px solid #F19B24;
+}
+main.login-form-wrap div.register-wrap div.o-wrap .span-wrap{
+    position: absolute;
+    margin-top: -1em;
+    top: 3px;
+    width: 100%;
+    color: #fff;
+}
+main.login-form-wrap div.register-wrap div.o-wrap .span-wrap span{
+    position: relative;
+    padding: 5px 1em;
+    background-color: #145679;
+    margin: 4px auto;
+}
+/*Terminos y condiciones link*/
+main.login-form-wrap div.terms-wrap{
+    position: relative;
+    margin: 1.5em auto;
+    padding: 0 8px;
+    text-align: center;
+    max-width: 300px;
+    color: #F19B24;
+    font-size: 12px;
+}
+
+/*           Register        */
+form.register-form-wrap div.mdl-grid div.mdl-textfield{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    color: #fff;
+}
+
+form.register-form-wrap div.mdl-grid div.mdl-textfield input.mdl-textfield__input{
+    border-bottom: 1px solid #F19B24;
+}
+
+form.register-form-wrap div.mdl-grid div.mdl-textfield.is-focused input.mdl-textfield__input:focus{
+    border-bottom-color: #fff;
+}
+
+form.register-form-wrap div.mdl-grid div.mdl-textfield label.mdl-textfield__label,
+main.login-form-wrap form div.mdl-textfield label.mdl-textfield__label{
+    color: #fff;
+}
+/*          Register Button             */
+form.register-form-wrap div.mdl-grid div.mdl-cell.button-wrap{
+    text-align: center;
+}
+
+form.register-form-wrap div.mdl-grid div.mdl-cell.button-wrap button.mdl-button{
+    width: 100%;
+    max-width: 300px;
+    border: 2px solid #F19B24;
+    background-color: transparent;
+    color: #F19B24;
+    font-size: 1.2em;
+    border-radius: 0;
+}
+/*     Register Terms           */
+form.register-form-wrap div.mdl-grid div.mdl-cell.terms-wrap{
+    text-align: center;
+}
+form.register-form-wrap div.mdl-grid div.mdl-cell.terms-wrap label.mdl-checkbox span.mdl-checkbox__label{
+    font-size: 12px;
+    color: #fff;
+}
+form.register-form-wrap div.mdl-grid div.mdl-cell.terms-wrap label.mdl-checkbox span.mdl-checkbox__label a{
+    font-weight: bold;
+    color: #F19B24;
+}
