@@ -265,6 +265,23 @@ form.register-form-wrap div.mdl-grid div.mdl-cell.terms-wrap label.mdl-checkbox 
     max-width: 300px;
     line-height: 16px;
 }
+.mdl-hint-dynamic{
+    color: #fff;
+    font-size: 10px;
+    margin: -16px auto 0 auto;
+    max-width: 300px;
+}
+.mdl-hint-dynamic li{
+    line-height: 13px;
+    margin-left: 15px;
+    font-size: 12px;
+}
+.mdl-hint-dynamic li i.fa-check{
+    color: #33C872;
+}
+.mdl-hint-dynamic li i.fa-times{
+    color: #FD0606;
+}
 /*Navbar icon*/
 i.fasfa-bars:before{
     content: "\f0c9";
@@ -385,7 +402,8 @@ form.register-form-wrap-dark div.mdl-grid div.mdl-cell.button-wrap button.mdl-bu
     font-size: 1.2em;
     border-radius: 0;
 }
-form.register-form-wrap-dark div.mdl-grid .mdl-hint{
+form.register-form-wrap-dark div.mdl-grid .mdl-hint,
+form.register-form-wrap-dark div.mdl-grid .mdl-hint-dynamic{
     color: #145679;/*Blue*/
 }
 

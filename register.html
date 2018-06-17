@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/material.min.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:400,500,700|Montserrat:400,500,700">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <title>iGenie - Registro</title>
     </head>
@@ -51,7 +52,15 @@
                             <input class="mdl-textfield__input" type="text" id="input_pass">
                             <label class="special-label mdl-textfield__label" for="input_pass">Contraseña</label>
                         </div>
-                        <div class="mdl-hint">Por su seguridad, la contraseña debe contener al menos ocho (8) caracteres, una (1) mayúscula, una (1) minúscula, números y un algún carácter especial como & * $ # @</div>
+                        <div class="mdl-hint-dynamic">
+                            <ul>
+                                <li class="pass-length"><i class="fas fa-times"></i> Min (8) caracteres</li>
+                                <li class="pass-upper"><i class="fas fa-times"></i> Mayúsculas</li>
+                                <li class="pass-lower"><i class="fas fa-times"></i> Minúsculas</li>
+                                <li class="pass-number"><i class="fas fa-times"></i> Números</li>
+                                <li class="pass-char"><i class="fas fa-times"></i> Caracteres *$#@&</li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="mdl-cell mdl-cell--3-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
                         <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
@@ -79,6 +88,7 @@
             </form>
         </div>
     </body>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="js/material.min.js"></script>
     <script src="js/app.js"></script>
 </html>
