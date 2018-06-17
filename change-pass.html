@@ -12,28 +12,24 @@
     </head>
     <body>
         <!-- Always shows a header, even in smaller screens. -->
-        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-            <header class="mdl-layout__header">
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-drawer">
+            <header class="mdl-layout__header mdl-layout--small-screen-only">
                 <div class="mdl-layout__header-row">
                     <!-- Title -->
-                    <span class="mdl-layout-title mdl-layout--small-screen-only">Cambiar contraseña</span>
-                    <!-- Add spacer, to align navigation to the right -->
-                    <div class="mdl-layout-spacer mdl-layout--large-screen-only"></div>
-                    <!-- Navigation. We hide it in small screens. -->
-                    <nav class="mdl-navigation mdl-layout--large-screen-only">
-                        <a class="mdl-navigation__link" href="">Link</a>
-                        <a class="mdl-navigation__link" href="">Link</a>
-                        <a class="mdl-navigation__link" href="">Link</a>
-                        <a class="mdl-navigation__link" href="perfil.html">Mi Perfil</a>
-                    </nav>
+                    <span class="mdl-layout-title mdl-layout--small-screen-only">
+                        <span>Cambiar contraseña</span>
+                    </span>
                 </div>
             </header>
             <div class="mdl-layout__drawer">
                 <nav class="mdl-navigation">
+                    <div class="nav-logo">
+                        <img src="images/white_logo_300px.png">
+                    </div>
+                    <a class="mdl-navigation__link" href="services.html">Wishes</a>
+                    <a class="mdl-navigation__link" href="services.html">Chat</a>
                     <a class="mdl-navigation__link" href="perfil.html">Mi perfil</a>
-                    <a class="mdl-navigation__link" href="">Link</a>
-                    <a class="mdl-navigation__link" href="">Link</a>
-                    <a class="mdl-navigation__link" href="">Link</a>
+                    <a class="mdl-navigation__link" href="services.html">Cerrar sesión</a>
                 </nav>
             </div>
             <main class="mdl-layout__content">
@@ -53,7 +49,7 @@
                                     <input class="mdl-textfield__input" type="text" id="input_pass">
                                     <label class="special-label mdl-textfield__label" for="input_pass">Contraseña Nueva</label>
                                 </div>
-                                <div class="mdl-hint">Minimo 8 caracteres, un numero y alguno de estos simbolos & * $ # @</div>
+                                <div class="mdl-hint">Por su seguridad, la contraseña debe contener al menos ocho (8) caracteres, una (1) mayúscula, una (1) minúscula, números y un algún carácter especial como & * $ # @</div>
                             </div>
                             <div class="mdl-cell mdl-cell--3-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
                                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">

@@ -293,6 +293,15 @@ i.fasfa-bars:before{
 .mdl-layout-title{
     margin: 0 auto;
 }
+
+.mdl-layout-title img{
+    max-height: 45px;
+    margin-left: -48px;
+}
+
+.mdl-layout-title span{
+    margin-left: -48px;
+}
 /*Perfil List Elements*/
 div.mdl-layout__container div.mdl-layout.mdl-js-layout main.mdl-layout__content div.page-content a.mdl-list__item{
     cursor: pointer;
@@ -383,6 +392,29 @@ form.register-form-wrap-dark div.mdl-grid .mdl-hint{
 /*Menu Settings*/
 div.mdl-layout.mdl-js-layout.mdl-layout--fixed-header div.mdl-layout__drawer nav.mdl-navigation{
     padding-top: 0;
+}
+
+div.mdl-layout__container div.mdl-layout.mdl-js-layout div.mdl-layout__drawer{
+    background-color: #145679;/*Blue*/
+    border-color: #145679;/*Blue*/
+}
+div.mdl-layout__container div.mdl-layout.mdl-js-layout div.mdl-layout__drawer .nav-logo{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    padding: 15px 0;
+}
+div.mdl-layout__container div.mdl-layout.mdl-js-layout div.mdl-layout__drawer .nav-logo img{
+    margin: 0 auto;
+    max-height: 70px;
+}
+div.mdl-layout__container div.mdl-layout.mdl-js-layout div.mdl-layout__drawer .mdl-navigation__link{
+    font-size: 16px;
+    color: #F19B24;/*Orange*/
+}
+div.mdl-layout__container div.mdl-layout.mdl-js-layout div.mdl-layout__drawer .mdl-navigation__link:hover{
+    background-color: #FFF;
+    color: #145679;/*Blue*/
 }
 
 .mdl-grid.services-grid{
