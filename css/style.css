@@ -386,7 +386,8 @@ div.mdl-layout.mdl-js-layout.mdl-layout--fixed-header div.mdl-layout__drawer nav
 }
 
 .mdl-grid.services-grid{
-    margin-top: 25px;
+    margin: 0 auto;
+    max-width: 900px;
 }
 
 .mdl-grid.services-grid i{
@@ -404,6 +405,10 @@ div.mdl-layout.mdl-js-layout.mdl-layout--fixed-header div.mdl-layout__drawer nav
 .mdl-grid.services-grid a.mdl-cell{
     text-align: center;
     padding: 20px 5px;
+}
+
+.mdl-grid.services-grid a.mdl-cell:hover{
+    background-color: rgba(0,0,0,.08)
 }
 
 .mdl-grid.services-grid a.mdl-cell .box{
