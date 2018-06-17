@@ -4,6 +4,7 @@ body{
   padding: 0;
   width: 100%;
   height: 100%;
+  font-family: sans-serif;
 }
 
 a {
@@ -36,6 +37,10 @@ h3 {
     padding: 0;
 }
 
+.padding-top-15{
+    padding-top: 15px;
+}
+
 /* MAIN styles */
 
 body {
@@ -47,7 +52,7 @@ body {
 }
 
 .app-bg{
-    background-color: #145679;
+    background-color: #145679;/*Blue*/
 }
 
 /*        Login layout      */
@@ -55,14 +60,14 @@ body {
     position: relative;
     width: 100%;
     height: 100%;
-    background-color: #145679;
+    background-color: #145679;/*Blue*/
 }
 
 .app-login-layout header {
   position: relative;
   width: 100%;
   height: auto;
-  background-color: #145679;
+  background-color: #145679;/*Blue*/
   box-shadow: none;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -105,8 +110,8 @@ div.slogan-wrap .container{
 }
 div.slogan-wrap .container .slogan-shape{
     padding: 5px 8px;
-    background-color: #F19B24;
-    border: 1px solid #F19B24;
+    background-color: #F19B24;/*Orange*/
+    border: 1px solid #F19B24;/*Orange*/
     border-radius: 10px 10px 10px 0;
     color: #fff;
     font-weight: bold;
@@ -137,11 +142,15 @@ main.login-form-wrap form div.mdl-textfield{
 
 /*Material Design Custumization*/
 main.login-form-wrap form div.mdl-textfield input.mdl-textfield__input{
-  border-bottom: 1px solid #F19B24;
+  border-bottom: 1px solid #F19B24;/*Orange*/
 }
 
 .special-label:after {
   background-color: #fff !important;/*Animation color*/
+}
+
+.dark .special-label:after {
+  background-color: #145679/*Blue*/ !important;/*Animation color*/
 }
 
 main.login-form-wrap form div.mdl-textfield.is-focused input.mdl-textfield__input,
@@ -151,9 +160,9 @@ main.login-form-wrap form div.mdl-textfield.is-focused label.mdl-textfield__labe
 
 main.login-form-wrap button.mdl-button{
     width: 100%;
-    border: 2px solid #F19B24;
+    border: 2px solid #F19B24;/*Orange*/
     background-color: transparent;
-    color: #F19B24;
+    color: #F19B24;/*Orange*/
     font-size: 1.2em;
     border-radius: 0;
 }
@@ -178,7 +187,7 @@ main.login-form-wrap div.register-wrap div.o-wrap{
 }
 
 main.login-form-wrap div.register-wrap div.o-wrap hr{
-    border-top: 1px solid #F19B24;
+    border-top: 1px solid #F19B24;/*Orange*/
 }
 main.login-form-wrap div.register-wrap div.o-wrap .span-wrap{
     position: absolute;
@@ -190,7 +199,7 @@ main.login-form-wrap div.register-wrap div.o-wrap .span-wrap{
 main.login-form-wrap div.register-wrap div.o-wrap .span-wrap span{
     position: relative;
     padding: 5px 1em;
-    background-color: #145679;
+    background-color: #145679;/*Blue*/
     margin: 4px auto;
 }
 /*Terminos y condiciones link*/
@@ -200,7 +209,7 @@ main.login-form-wrap div.terms-wrap{
     padding: 0 8px;
     text-align: center;
     max-width: 300px;
-    color: #F19B24;
+    color: #F19B24;/*Orange*/
     font-size: 12px;
 }
 
@@ -213,7 +222,7 @@ form.register-form-wrap div.mdl-grid div.mdl-textfield{
 }
 
 form.register-form-wrap div.mdl-grid div.mdl-textfield input.mdl-textfield__input{
-    border-bottom: 1px solid #F19B24;
+    border-bottom: 1px solid #F19B24;/*Orange*/
 }
 
 form.register-form-wrap div.mdl-grid div.mdl-textfield.is-focused input.mdl-textfield__input:focus{
@@ -232,9 +241,9 @@ form.register-form-wrap div.mdl-grid div.mdl-cell.button-wrap{
 form.register-form-wrap div.mdl-grid div.mdl-cell.button-wrap button.mdl-button{
     width: 100%;
     max-width: 300px;
-    border: 2px solid #F19B24;
+    border: 2px solid #F19B24;/*Orange*/
     background-color: transparent;
-    color: #F19B24;
+    color: #F19B24;/*Orange*/
     font-size: 1.2em;
     border-radius: 0;
 }
@@ -248,17 +257,15 @@ form.register-form-wrap div.mdl-grid div.mdl-cell.terms-wrap label.mdl-checkbox 
 }
 form.register-form-wrap div.mdl-grid div.mdl-cell.terms-wrap label.mdl-checkbox span.mdl-checkbox__label a{
     font-weight: bold;
-    color: #F19B24;
+    color: #F19B24;/*Orange*/
 }
 /*Hints Styles*/
-.mdl-hint-textfield{
-    padding: 20px 0 0 0;
-}
 .mdl-hint{
     color: #fff;
     font-size: 11px;
-    margin: 0 auto;
+    margin: -20px auto 0 auto;
     max-width: 300px;
+    line-height: 16px;
 }
 /*Navbar icon*/
 i.fasfa-bars:before{
@@ -266,11 +273,11 @@ i.fasfa-bars:before{
     font-weight: 600;
     font-family: "Font Awesome 5 Free";
     font-style: normal;
-    color: #F19B24;
+    color: #F19B24;/*Orange*/
 }
 .mdl-layout__header{
-    background-color: #145679;
-    color: #F19B24;
+    background-color: #145679;/*Blue*/
+    color: #F19B24;/*Orange*/
 }
 .mdl-layout__drawer-button{
     line-height: 48px;
@@ -301,7 +308,7 @@ div.mdl-layout__container div.mdl-layout.mdl-js-layout main.mdl-layout__content 
     font-size: 28px;
     margin-right: 16px;
     margin-left: 6px;
-    color: #F19B24;
+    color: #F19B24;/*Orange*/
 }
 /*Perfil info*/
 .user-wrap{
@@ -309,7 +316,7 @@ div.mdl-layout__container div.mdl-layout.mdl-js-layout main.mdl-layout__content 
     display: flex;
     align-items:center;
     padding: 20px;
-    border-bottom: 2px solid #F19B24;
+    border-bottom: 2px solid #F19B24;/*Orange*/
 }
 
 .user-wrap .perfil-image{
@@ -336,6 +343,45 @@ div.mdl-layout__container div.mdl-layout.mdl-js-layout main.mdl-layout__content 
     line-height: 16px;
     margin: 0;
 }
+
+/*           Register        */
+form.register-form-wrap-dark div.mdl-grid div.mdl-textfield{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    color: #145679;/*Blue*/
+}
+
+form.register-form-wrap-dark div.mdl-grid div.mdl-textfield input.mdl-textfield__input{
+    border-bottom: 1px solid #F19B24;/*Orange*/
+}
+
+form.register-form-wrap-dark div.mdl-grid div.mdl-textfield.is-focused input.mdl-textfield__input:focus{
+    border-bottom-color: #145679;/*Blue*/
+}
+
+form.register-form-wrap-dark div.mdl-grid div.mdl-textfield label.mdl-textfield__label,
+main.login-form-wrap form div.mdl-textfield label.mdl-textfield__label{
+    color: #145679;/*Blue*/
+}
+/*          Dark forms Button             */
+form.register-form-wrap-dark div.mdl-grid div.mdl-cell.button-wrap{
+    text-align: center;
+}
+
+form.register-form-wrap-dark div.mdl-grid div.mdl-cell.button-wrap button.mdl-button{
+    width: 100%;
+    max-width: 300px;
+    border: 2px solid #F19B24;/*Orange*/
+    background-color: #145679;/*Blue*/
+    color: #F19B24;/*Orange*/
+    font-size: 1.2em;
+    border-radius: 0;
+}
+form.register-form-wrap-dark div.mdl-grid .mdl-hint{
+    color: #145679;/*Blue*/
+}
+
 /*Menu Settings*/
 div.mdl-layout.mdl-js-layout.mdl-layout--fixed-header div.mdl-layout__drawer nav.mdl-navigation{
     padding-top: 0;
