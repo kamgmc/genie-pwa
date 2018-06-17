@@ -4,7 +4,7 @@ body{
   padding: 0;
   width: 100%;
   height: 100%;
-  font-family: sans-serif;
+  font-family: 'Cabin', sans-serif;
 }
 
 a {
@@ -44,8 +44,6 @@ h3 {
 /* MAIN styles */
 
 body {
-    font-family: Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-size: 1rem;
     width: 100%;
     height: 100%;
     scroll-behavior: smooth;
@@ -153,8 +151,7 @@ main.login-form-wrap form div.mdl-textfield input.mdl-textfield__input{
   background-color: #145679/*Blue*/ !important;/*Animation color*/
 }
 
-main.login-form-wrap form div.mdl-textfield.is-focused input.mdl-textfield__input,
-main.login-form-wrap form div.mdl-textfield.is-focused label.mdl-textfield__label{
+main.login-form-wrap form div.mdl-textfield.mdl-js-textfield.mdl-textfield--floating-label label.mdl-textfield__label{
 	color: #fff;
 }
 
@@ -339,7 +336,7 @@ div.mdl-layout__container div.mdl-layout.mdl-js-layout main.mdl-layout__content 
     margin: 0;
 }
 .user-wrap .sub-text{
-    font-size: 12px;
+    font-size: 13px;
     line-height: 16px;
     margin: 0;
 }
