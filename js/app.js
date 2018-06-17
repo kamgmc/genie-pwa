@@ -52,4 +52,17 @@ $(function() {
             $(".mdl-hint-dynamic li.pass-char i.fas").addClass("fa-times");
         }
     });
+    var $pass_rep = $("#input_pass_rep");
+    $pass_rep.keyup(function () {
+        var pass_rep = this.value;
+        //Verificar minimo de caracteres
+        if ($pass.val() == pass_rep) {
+            $(".mdl-hint-dynamic li.pass-same i.fas").removeClass("fa-times");
+            $(".mdl-hint-dynamic li.pass-same i.fas").addClass("fa-check");
+        }
+        else {
+            $(".mdl-hint-dynamic li.pass-same i.fas").removeClass("fa-check");
+            $(".mdl-hint-dynamic li.pass-same i.fas").addClass("fa-times");
+        }
+    });
 });

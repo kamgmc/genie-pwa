@@ -407,6 +407,10 @@ form.register-form-wrap-dark div.mdl-grid .mdl-hint-dynamic{
     color: #145679;/*Blue*/
 }
 
+form.register-form-wrap-dark .mdl-cell{
+    padding: 0 4px;
+}
+
 /*Menu Settings*/
 div.mdl-layout.mdl-js-layout.mdl-layout--fixed-header div.mdl-layout__drawer nav.mdl-navigation{
     padding-top: 0;
