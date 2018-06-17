@@ -44,6 +44,7 @@ h3 {
 /* MAIN styles */
 
 body {
+    font-size: 1rem;
     width: 100%;
     height: 100%;
     scroll-behavior: smooth;
@@ -382,4 +383,36 @@ form.register-form-wrap-dark div.mdl-grid .mdl-hint{
 /*Menu Settings*/
 div.mdl-layout.mdl-js-layout.mdl-layout--fixed-header div.mdl-layout__drawer nav.mdl-navigation{
     padding-top: 0;
+}
+
+.mdl-grid.services-grid{
+    margin-top: 25px;
+}
+
+.mdl-grid.services-grid i{
+    display: block;
+    font-size: 35px;
+    color: #F19B24;/*Orange*/
+    border-bottom: 3px solid #145679;/*Blue*/
+    padding-bottom: 15px;
+}
+
+.mdl-grid.services-grid span{
+    color: #145679;/*Blue*/
+}
+
+.mdl-grid.services-grid a.mdl-cell{
+    text-align: center;
+    padding: 20px 5px;
+}
+
+.mdl-grid.services-grid a.mdl-cell .box{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+@media (max-width:479px) {
+    .mdl-grid.services-grid .mdl-cell.mdl-cell--4-col-phone{
+        width: 33.333333333333%;
+    }
 }
