@@ -33,12 +33,24 @@ h3 {
   font-weight: 500;
 }
 
+.text-center{
+    text-align: center;
+}
+
 .no-padding{
     padding: 0;
 }
 
 .padding-top-15{
     padding-top: 15px;
+}
+
+.blue{
+    color: #145679;/*Blue*/
+}
+
+.orange{
+    color: #F19B24;/*Orange*/
 }
 
 /* MAIN styles */
@@ -324,6 +336,10 @@ div.mdl-layout__container div.mdl-layout.mdl-js-layout main.mdl-layout__content 
     cursor: pointer;
 }
 
+div.mdl-layout__container div.mdl-layout.mdl-js-layout main.mdl-layout__content div.page-content a.mdl-list__item span.mdl-list__item-secondary-action{
+    color: #145679;/*Blue*/
+}
+
 div.mdl-layout__container div.mdl-layout.mdl-js-layout main.mdl-layout__content div.page-content a.mdl-list__item:hover{
     background-color: rgba(0,0,0,.08)
 }
@@ -474,4 +490,30 @@ div.mdl-layout__container div.mdl-layout.mdl-js-layout div.mdl-layout__drawer .m
     .mdl-grid.services-grid .mdl-cell.mdl-cell--4-col-phone{
         width: 33.333333333333%;
     }
+}
+
+.mdl-grid.coupon-grid{
+    margin: 0 auto;
+    max-width: 900px;
+    border-top: 2px solid #F19B24;/*Orange*/
+}
+
+.mdl-grid.coupon-grid i{
+    display: block;
+    font-size: 35px;
+    color: #F19B24;/*Orange*/
+}
+
+.mdl-grid.coupon-grid span{
+    color: #145679;/*Blue*/
+}
+
+.mdl-grid.coupon-grid .mdl-list{
+    width: 100%;
+}
+
+.mdl-grid.coupon-grid h4{
+    margin: 4px auto;
+    color: #145679;/*Blue*/
+    border-bottom: 2px solid #F19B24;/*Orange*/
 }

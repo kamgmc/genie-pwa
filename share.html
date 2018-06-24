@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:400,500,700|Montserrat:400,500,700">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <title>iGenie - Cambiar contraseña</title>
+        <title>iGenie - Invitar amigos</title>
     </head>
     <body>
         <!-- Always shows a header, even in smaller screens. -->
@@ -17,7 +17,7 @@
                 <div class="mdl-layout__header-row">
                     <!-- Title -->
                     <span class="mdl-layout-title mdl-layout--small-screen-only">
-                        <span>Cambiar contraseña</span>
+                        <span>Invitar amigos</span>
                     </span>
                 </div>
             </header>
@@ -34,40 +34,17 @@
             </div>
             <main class="mdl-layout__content">
                 <div class="page-content dark">
-                    <h3 class="text-center mdl-layout--large-screen-only blue">Cambiar Contraseña</h3>
+                    <h3 class="text-center mdl-layout--large-screen-only blue">Invitar amigos</h3>
                     <form action="#" class="register-form-wrap-dark padding-top-15">
                         <div class="mdl-grid mdl-grid--no-spacing">
                             <div class="mdl-cell mdl-cell--4-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-cell--4-offset-desktop">
                                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                    <input class="mdl-textfield__input" type="password" id="input_pass_last">
-                                    <label class="special-label mdl-textfield__label" for="input_pass_last">Contraseña Anterior</label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mdl-grid mdl-grid--no-spacing">
-                            <div class="mdl-cell mdl-cell--3-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone mdl-cell--3-offset-desktop">
-                                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                    <input class="mdl-textfield__input" type="password" id="input_password">
-                                    <label class="special-label mdl-textfield__label" for="input_password">Contraseña Nueva</label>
+                                    <input class="mdl-textfield__input" type="email" id="input_email">
+                                    <label class="special-label mdl-textfield__label" for="input_email">Correo electrónico</label>
                                 </div>
                                 <div class="mdl-hint-dynamic">
                                     <ul>
-                                        <li class="password-length"><i class="fas fa-times"></i> Min (8) caracteres</li>
-                                        <li class="password-upper"><i class="fas fa-times"></i> Mayúsculas</li>
-                                        <li class="password-lower"><i class="fas fa-times"></i> Minúsculas</li>
-                                        <li class="password-number"><i class="fas fa-times"></i> Números</li>
-                                        <li class="password-character"><i class="fas fa-times"></i> Caracteres *$#@&</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="mdl-cell mdl-cell--3-col-desktop mdl-cell--12-col-tablet mdl-cell--12-col-phone">
-                                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                                    <input class="mdl-textfield__input" type="password" id="input_password_again">
-                                    <label class="special-label mdl-textfield__label" for="input_password_again">Repita la Contraseña</label>
-                                </div>
-                                <div class="mdl-hint-dynamic">
-                                    <ul>
-                                        <li class="same-password"><i class="fas fa-times"></i> Son iguales</li>
+                                        <li class="email-check"><i class="fas fa-times"></i> Email valido</li>
                                     </ul>
                                 </div>
                             </div>
@@ -76,7 +53,7 @@
                             <div class="button-wrap mdl-cell mdl-cell--4-col-desktop mdl-cell--4-offset-desktop mdl-cell--12-col-phone">
                                 <!-- Login Button -->
                                 <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
-                                    CAMBIAR
+                                    Invitar
                                 </button>
                             </div>
                         </div>
